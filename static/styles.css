@@ -10,10 +10,15 @@
 
 body .home {
 	font-family: 'amble';
+
 }
 
 body .home p {
 	font-size: large;
+}
+
+body .home img {
+	width: 80px;
 }
 
 .navbar-trans {
