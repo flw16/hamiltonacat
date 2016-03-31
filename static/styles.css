@@ -1,11 +1,11 @@
 .navbar-trans {
-	background-color:#279ddd;
+	background-color:#1FCAE8;
     color:#fff;
     text-align: right;
 }
 
 .navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
-	background-color:#38afef;
+	background-color:#2161E8;
 }
 
 .navbar-trans a{
