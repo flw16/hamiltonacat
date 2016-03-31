@@ -3,6 +3,18 @@
 	src: url('Raleway-Black.ttf');
 }
 
+@font-face {
+	font-family: 'amble';
+	src: url('Amble-Regular.ttf');
+}
+
+body .home {
+	font-family: 'amble';
+}
+
+body .home p {
+	font-size: large;
+}
 
 .navbar-trans {
 	background-color:#1FCAE8;
@@ -29,10 +41,10 @@ footer {
 	background-color: #000000;
 	color: #E1FBFF;
 	font-family: 'raleway';
-	font-size: large
+	font-size: small;
 
 }
 
 footer #plus {
-	font-size: 60%;
+	font-size: 40%;
 }
