@@ -12,8 +12,8 @@ body .message {
 	
 }
 
-body .gallery {
-	
+body .photos img {
+	max-width: 200px;
 
 }
 
