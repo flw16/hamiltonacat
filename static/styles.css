@@ -21,6 +21,10 @@ body .home img {
 	width: 80px;
 }
 
+body .about {
+	text-align: center;
+}
+
 .navbar-trans {
 	background-color:#1FCAE8;
     color:#fff;
