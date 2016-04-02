@@ -26,13 +26,13 @@ body .about {
 }
 
 .navbar-trans {
-	background-color:#1FCAE8;
+	background-color:#41609C;
     color:#fff;
     text-align: right;
 }
 
 .navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
-	background-color:#2161E8;
+	background-color:#558ACC;
 }
 
 .navbar-trans a{
