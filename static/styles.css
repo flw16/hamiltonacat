@@ -42,6 +42,12 @@ body .about {
 	text-align: center;
 }
 
+body .about img {
+	position: center;
+	width:500px;
+	padding: 20px;
+}
+
 .navbar-trans {
 	background-color:#41609C;
     color:#fff;
