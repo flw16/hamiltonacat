@@ -95,6 +95,19 @@ body .about img {
 	}
 }
 
+@media print{
+	h1{
+		display: none;
+	}
+	body{
+		background-color: none}
+	}
+	footer{
+		background-color: none;
+		color: #000000;
+	}
+}
+
 footer {
 	background-color: #000000;
 	color: #E1FBFF;
