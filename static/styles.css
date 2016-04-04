@@ -19,7 +19,7 @@ body .message .letter {
 
 
 body .message #textbox {
-	width: 400px; 
+	width: 200px; 
 	height: 100px;
 	padding: 50px; 
 }
@@ -56,7 +56,7 @@ body .about {
 
 body .about img {
 	position: center;
-	width:500px;
+	width:200px;
 	padding: 20px;
 }
 
@@ -74,6 +74,26 @@ body .about img {
     color:#fefefe;
 }
 
+
+@media screen and (min-width: 800px){
+	body .photos img {
+		position: relative;
+		width: 400px;
+		max-height: 600px;
+		padding: 10px;
+		overflow: auto;
+	}
+	body .message #textbox {
+	width: 400px; 
+	height: 100px;
+	padding: 50px; 
+	}
+	body .about img {
+	position: center;
+	width:500px;
+	padding: 20px;
+	}
+}
 
 footer {
 	background-color: #000000;

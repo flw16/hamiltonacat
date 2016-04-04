@@ -45,11 +45,11 @@ class FourthHandler(webapp2.RequestHandler):
         self.response.write(template.render({'title': 'Send Hamilton a Message'}))
 	def post(self):
 		HamSender = self.request.get('sender')
-		HamMessage = self.request.get('message') 
+		HamMessage = self.request.get('message')
+		self.response.write('Thank you for sending Hamilton a message,')
+		self.response.write(HamSender)
 		logging.info(HamSender) #logging it
 		logging.info(HamMessage) #logging it
-
-		self.response.write('Thank you for sending Hamilton a message!')
 
 
 app = webapp2.WSGIApplication([
