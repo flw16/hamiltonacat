@@ -42,6 +42,14 @@ class FourthHandler(webapp2.RequestHandler):
     def get(self):
     	template = JINJA_ENVIRONMENT.get_template('templates/message.html')
         self.response.write(template.render({'title': 'Send Hamilton a Message'}))
+	def post(self):
+		HamSender = self.request.get('sender')
+		HamMessage = self.request.get('message') 
+		logging.info(HamSender) #logging it
+		logging.info(HamMessage) #logging it
+
+		self.response.write('Thank you for sending Hamilton a message!')
+
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler),
