@@ -8,8 +8,20 @@
 	src: url('Amble-Regular.ttf');
 }
 
-body .message {
-	
+body .message .letter {
+	padding: 10px;
+	border-color: #042045;
+	border-width: 5px;
+	border-style: solid;
+	background-color: #C4DFFF;
+
+}
+
+
+body .message #textbox {
+	width: 400px; 
+	height: 100px;
+	padding: 50px; 
 }
 
 body .photos {
