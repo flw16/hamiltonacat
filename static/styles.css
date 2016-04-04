@@ -74,6 +74,17 @@ body .about img {
     color:#fefefe;
 }
 
+footer {
+	background-color: #000000;
+	color: #E1FBFF;
+	font-family: 'raleway';
+	font-size: small;
+
+}
+
+footer #plus {
+	font-size: 40%;
+}
 
 @media screen and (min-width: 800px){
 	body .photos img {
@@ -93,6 +104,16 @@ body .about img {
 	width:500px;
 	padding: 20px;
 	}
+	footer {
+	background-color: #000000;
+	color: #E1FBFF;
+	font-family: 'raleway';
+	font-size: small;
+	}
+	footer #plus {
+	font-size: 40%;
+	}
+
 }
 
 @media print{
@@ -104,18 +125,5 @@ body .about img {
 	}
 	footer{
 		background-color: none;
-		color: #000000;
 	}
-}
-
-footer {
-	background-color: #000000;
-	color: #E1FBFF;
-	font-family: 'raleway';
-	font-size: small;
-
-}
-
-footer #plus {
-	font-size: 40%;
 }
