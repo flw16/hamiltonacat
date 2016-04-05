@@ -8,21 +8,6 @@
 	src: url('Amble-Regular.ttf');
 }
 
-body .message .letter {
-	padding: 10px;
-	border-color: #042045;
-	border-width: 5px;
-	border-style: solid;
-	background-color: #C4DFFF;
-
-}
-
-
-body .message #textbox {
-	width: 200px; 
-	height: 100px;
-	padding: 50px; 
-}
 
 body .photos {
 	display: block;
@@ -60,6 +45,13 @@ body .about img {
 	padding: 20px;
 }
 
+body .geography #map {
+	position: center;
+	width:200px;
+	padding: 20px;
+	}
+
+
 .navbar-trans {
 	background-color:#41609C;
     color:#fff;
@@ -94,16 +86,17 @@ footer #plus {
 		padding: 10px;
 		overflow: auto;
 	}
-	body .message #textbox {
-	width: 400px; 
-	height: 100px;
-	padding: 50px; 
-	}
 	body .about img {
 	position: center;
 	width:500px;
 	padding: 20px;
 	}
+	body .geography #map {
+		position: center;
+		width:500px;
+		padding: 20px;
+	}
+
 	footer {
 	background-color: #000000;
 	color: #E1FBFF;
