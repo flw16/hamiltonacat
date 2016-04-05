@@ -17,7 +17,6 @@
 import webapp2
 import os
 import jinja2
-import logging
 
 JINJA_ENVIRONMENT = jinja2.Environment(
 	loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
@@ -41,15 +40,9 @@ class ThirdHandler(webapp2.RequestHandler):
 
 class FourthHandler(webapp2.RequestHandler):
     def get(self):
-    	template = JINJA_ENVIRONMENT.get_template('templates/message.html')
-        self.response.write(template.render({'title': 'Send Hamilton a Message'}))
-	def post(self):
-		HamSender = self.request.get('sender')
-		HamMessage = self.request.get('message')
-		self.response.write('Thank you for sending Hamilton a message,')
-		self.response.write(HamSender)
-		logging.info(HamSender) #logging it
-		logging.info(HamMessage) #logging it
+    	template = JINJA_ENVIRONMENT.get_template('templates/map.html')
+        self.response.write(template.render({'title': 'HSHV'}))
+
 
 
 app = webapp2.WSGIApplication([
@@ -57,5 +50,5 @@ app = webapp2.WSGIApplication([
     ('/home.html', MainHandler),
     ('/about.html', SecondHandler),
     ('/gallery.html', ThirdHandler),
-    ('/message.html', FourthHandler)],
+    ('/map.html', FourthHandler)],
 	debug=True)
